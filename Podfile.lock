@@ -1,0 +1,35 @@
+PODS:
+  - FCModel (0.2.0):
+    - FMDB (~> 2.1)
+  - FMDB (2.1):
+    - FMDB/standard
+  - FMDB/common (2.1)
+  - FMDB/standard (2.1):
+    - FMDB/common
+  - Kiwi/ARC (2.2.3)
+  - Kiwi/NonARC (2.2.3)
+  - Kiwi/XCTest (2.2.3):
+    - Kiwi/ARC
+    - Kiwi/NonARC
+  - Objection (1.2.1)
+  - ReactiveCocoa (2.1.8):
+    - ReactiveCocoa/Core
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/Core (2.1.8):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.1.8)
+
+DEPENDENCIES:
+  - FCModel
+  - Kiwi/XCTest
+  - Objection (~> 1.2.1)
+  - ReactiveCocoa (~> 2.1.8)
+
+SPEC CHECKSUMS:
+  FCModel: 52cc8da1e3bab0ba3c769f77514f5bb9703c6ce0
+  FMDB: 3fd5aaf632ca4ed39e3f101e0398504e6d5b0918
+  Kiwi: 04c51e880831d291748ec702d42c4101f7eb95c9
+  Objection: dd0f7a710183d4ec5479945d7600acd3bbd95dea
+  ReactiveCocoa: 0db710a0afa1c627a64470e5c912a3870d4854ae
+
+COCOAPODS: 0.28.0

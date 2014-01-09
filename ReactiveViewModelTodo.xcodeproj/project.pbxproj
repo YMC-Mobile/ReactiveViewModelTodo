@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D99FF9BDB684EF58DABACCA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF150529DF54357A8AB24E8 /* libPods.a */; };
+		8E9A272325CB4F0FBCAAFABD /* libPods-ReactiveViewModelTodoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1709F5FFB11940B8AE5B5131 /* libPods-ReactiveViewModelTodoTests.a */; };
+		91095D9E187C040500129A57 /* YMCTodoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 91095D9D187C040500129A57 /* YMCTodoItem.m */; };
+		9137ED09187B00BA0038F5C7 /* YMCTodoViewModelSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 9137ED08187B00BA0038F5C7 /* YMCTodoViewModelSpec.m */; };
+		9137ED10187B04AD0038F5C7 /* YMCTodoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9137ED0F187B04AD0038F5C7 /* YMCTodoViewModel.m */; };
+		914173A9187329E30088A5F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 914173A8187329E30088A5F0 /* Foundation.framework */; };
+		914173AB187329E30088A5F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 914173AA187329E30088A5F0 /* CoreGraphics.framework */; };
+		914173AD187329E30088A5F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 914173AC187329E30088A5F0 /* UIKit.framework */; };
+		914173B3187329E30088A5F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 914173B1187329E30088A5F0 /* InfoPlist.strings */; };
+		914173B5187329E30088A5F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 914173B4187329E30088A5F0 /* main.m */; };
+		914173B9187329E30088A5F0 /* YMCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 914173B8187329E30088A5F0 /* YMCAppDelegate.m */; };
+		914173BC187329E30088A5F0 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914173BA187329E30088A5F0 /* Main_iPhone.storyboard */; };
+		914173BF187329E30088A5F0 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914173BD187329E30088A5F0 /* Main_iPad.storyboard */; };
+		914173C2187329E30088A5F0 /* YMCMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 914173C1187329E30088A5F0 /* YMCMasterViewController.m */; };
+		914173C5187329E30088A5F0 /* YMCDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 914173C4187329E30088A5F0 /* YMCDetailViewController.m */; };
+		914173C7187329E30088A5F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914173C6187329E30088A5F0 /* Images.xcassets */; };
+		914173CE187329E30088A5F0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 914173CD187329E30088A5F0 /* XCTest.framework */; };
+		914173CF187329E30088A5F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 914173A8187329E30088A5F0 /* Foundation.framework */; };
+		914173D0187329E30088A5F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 914173AC187329E30088A5F0 /* UIKit.framework */; };
+		914173D8187329E30088A5F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 914173D6187329E30088A5F0 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		914173D1187329E30088A5F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9141739D187329E20088A5F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 914173A4187329E20088A5F0;
+			remoteInfo = ReactiveViewModelTodo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1709F5FFB11940B8AE5B5131 /* libPods-ReactiveViewModelTodoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveViewModelTodoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		511AE9ABD1F64E2AA543B239 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		91095D9C187C040500129A57 /* YMCTodoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCTodoItem.h; sourceTree = "<group>"; };
+		91095D9D187C040500129A57 /* YMCTodoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCTodoItem.m; sourceTree = "<group>"; };
+		9137ED08187B00BA0038F5C7 /* YMCTodoViewModelSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCTodoViewModelSpec.m; sourceTree = "<group>"; };
+		9137ED0E187B04AD0038F5C7 /* YMCTodoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCTodoViewModel.h; sourceTree = "<group>"; };
+		9137ED0F187B04AD0038F5C7 /* YMCTodoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCTodoViewModel.m; sourceTree = "<group>"; };
+		914173A5187329E30088A5F0 /* ReactiveViewModelTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveViewModelTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		914173A8187329E30088A5F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		914173AA187329E30088A5F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		914173AC187329E30088A5F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		914173B0187329E30088A5F0 /* ReactiveViewModelTodo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReactiveViewModelTodo-Info.plist"; sourceTree = "<group>"; };
+		914173B2187329E30088A5F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		914173B4187329E30088A5F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		914173B6187329E30088A5F0 /* ReactiveViewModelTodo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactiveViewModelTodo-Prefix.pch"; sourceTree = "<group>"; };
+		914173B7187329E30088A5F0 /* YMCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMCAppDelegate.h; sourceTree = "<group>"; };
+		914173B8187329E30088A5F0 /* YMCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMCAppDelegate.m; sourceTree = "<group>"; };
+		914173BB187329E30088A5F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		914173BE187329E30088A5F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		914173C0187329E30088A5F0 /* YMCMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMCMasterViewController.h; sourceTree = "<group>"; };
+		914173C1187329E30088A5F0 /* YMCMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMCMasterViewController.m; sourceTree = "<group>"; };
+		914173C3187329E30088A5F0 /* YMCDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMCDetailViewController.h; sourceTree = "<group>"; };
+		914173C4187329E30088A5F0 /* YMCDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMCDetailViewController.m; sourceTree = "<group>"; };
+		914173C6187329E30088A5F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		914173CC187329E30088A5F0 /* ReactiveViewModelTodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveViewModelTodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		914173CD187329E30088A5F0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		914173D5187329E30088A5F0 /* ReactiveViewModelTodoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReactiveViewModelTodoTests-Info.plist"; sourceTree = "<group>"; };
+		914173D7187329E30088A5F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DEF150529DF54357A8AB24E8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18D2186BEC8402F8C84E1D6 /* Pods-ReactiveViewModelTodoTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveViewModelTodoTests.xcconfig"; path = "Pods/Pods-ReactiveViewModelTodoTests.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		914173A2187329E20088A5F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914173AB187329E30088A5F0 /* CoreGraphics.framework in Frameworks */,
+				914173AD187329E30088A5F0 /* UIKit.framework in Frameworks */,
+				914173A9187329E30088A5F0 /* Foundation.framework in Frameworks */,
+				8D99FF9BDB684EF58DABACCA /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914173C9187329E30088A5F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914173CE187329E30088A5F0 /* XCTest.framework in Frameworks */,
+				914173D0187329E30088A5F0 /* UIKit.framework in Frameworks */,
+				914173CF187329E30088A5F0 /* Foundation.framework in Frameworks */,
+				8E9A272325CB4F0FBCAAFABD /* libPods-ReactiveViewModelTodoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9137ED0A187B02510038F5C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				91095D9C187C040500129A57 /* YMCTodoItem.h */,
+				91095D9D187C040500129A57 /* YMCTodoItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9137ED0B187B02570038F5C7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9137ED0E187B04AD0038F5C7 /* YMCTodoViewModel.h */,
+				9137ED0F187B04AD0038F5C7 /* YMCTodoViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		9137ED0C187B026D0038F5C7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				914173C0187329E30088A5F0 /* YMCMasterViewController.h */,
+				914173C1187329E30088A5F0 /* YMCMasterViewController.m */,
+				914173C3187329E30088A5F0 /* YMCDetailViewController.h */,
+				914173C4187329E30088A5F0 /* YMCDetailViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		9137ED0D187B027A0038F5C7 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				914173BA187329E30088A5F0 /* Main_iPhone.storyboard */,
+				914173BD187329E30088A5F0 /* Main_iPad.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		9141739C187329E20088A5F0 = {
+			isa = PBXGroup;
+			children = (
+				914173AE187329E30088A5F0 /* ReactiveViewModelTodo */,
+				914173D3187329E30088A5F0 /* ReactiveViewModelTodoTests */,
+				914173A7187329E30088A5F0 /* Frameworks */,
+				914173A6187329E30088A5F0 /* Products */,
+				511AE9ABD1F64E2AA543B239 /* Pods.xcconfig */,
+				F18D2186BEC8402F8C84E1D6 /* Pods-ReactiveViewModelTodoTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		914173A6187329E30088A5F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				914173A5187329E30088A5F0 /* ReactiveViewModelTodo.app */,
+				914173CC187329E30088A5F0 /* ReactiveViewModelTodoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		914173A7187329E30088A5F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				914173A8187329E30088A5F0 /* Foundation.framework */,
+				914173AA187329E30088A5F0 /* CoreGraphics.framework */,
+				914173AC187329E30088A5F0 /* UIKit.framework */,
+				914173CD187329E30088A5F0 /* XCTest.framework */,
+				DEF150529DF54357A8AB24E8 /* libPods.a */,
+				1709F5FFB11940B8AE5B5131 /* libPods-ReactiveViewModelTodoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		914173AE187329E30088A5F0 /* ReactiveViewModelTodo */ = {
+			isa = PBXGroup;
+			children = (
+				9137ED0A187B02510038F5C7 /* Model */,
+				9137ED0B187B02570038F5C7 /* ViewModel */,
+				9137ED0C187B026D0038F5C7 /* ViewController */,
+				9137ED0D187B027A0038F5C7 /* Storyboard */,
+				914173AF187329E30088A5F0 /* Supporting Files */,
+				914173C6187329E30088A5F0 /* Images.xcassets */,
+				914173B7187329E30088A5F0 /* YMCAppDelegate.h */,
+				914173B8187329E30088A5F0 /* YMCAppDelegate.m */,
+			);
+			path = ReactiveViewModelTodo;
+			sourceTree = "<group>";
+		};
+		914173AF187329E30088A5F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				914173B0187329E30088A5F0 /* ReactiveViewModelTodo-Info.plist */,
+				914173B1187329E30088A5F0 /* InfoPlist.strings */,
+				914173B4187329E30088A5F0 /* main.m */,
+				914173B6187329E30088A5F0 /* ReactiveViewModelTodo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		914173D3187329E30088A5F0 /* ReactiveViewModelTodoTests */ = {
+			isa = PBXGroup;
+			children = (
+				91522FAF187E8466007AD14E /* ViewModel */,
+				914173D4187329E30088A5F0 /* Supporting Files */,
+			);
+			path = ReactiveViewModelTodoTests;
+			sourceTree = "<group>";
+		};
+		914173D4187329E30088A5F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				914173D5187329E30088A5F0 /* ReactiveViewModelTodoTests-Info.plist */,
+				914173D6187329E30088A5F0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91522FAF187E8466007AD14E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9137ED08187B00BA0038F5C7 /* YMCTodoViewModelSpec.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		914173A4187329E20088A5F0 /* ReactiveViewModelTodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 914173DD187329E30088A5F0 /* Build configuration list for PBXNativeTarget "ReactiveViewModelTodo" */;
+			buildPhases = (
+				A91F88E334AD4405942FF1D7 /* Check Pods Manifest.lock */,
+				914173A1187329E20088A5F0 /* Sources */,
+				914173A2187329E20088A5F0 /* Frameworks */,
+				914173A3187329E20088A5F0 /* Resources */,
+				67654F7D504C44DDBE027924 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactiveViewModelTodo;
+			productName = ReactiveViewModelTodo;
+			productReference = 914173A5187329E30088A5F0 /* ReactiveViewModelTodo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		914173CB187329E30088A5F0 /* ReactiveViewModelTodoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 914173E0187329E30088A5F0 /* Build configuration list for PBXNativeTarget "ReactiveViewModelTodoTests" */;
+			buildPhases = (
+				7941697F736E4D07B4A6C141 /* Check Pods Manifest.lock */,
+				914173C8187329E30088A5F0 /* Sources */,
+				914173C9187329E30088A5F0 /* Frameworks */,
+				914173CA187329E30088A5F0 /* Resources */,
+				476D0F2B1CF64EB281F9472A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				914173D2187329E30088A5F0 /* PBXTargetDependency */,
+			);
+			name = ReactiveViewModelTodoTests;
+			productName = ReactiveViewModelTodoTests;
+			productReference = 914173CC187329E30088A5F0 /* ReactiveViewModelTodoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9141739D187329E20088A5F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YMC;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "YMC AG";
+				TargetAttributes = {
+					914173CB187329E30088A5F0 = {
+						TestTargetID = 914173A4187329E20088A5F0;
+					};
+				};
+			};
+			buildConfigurationList = 914173A0187329E20088A5F0 /* Build configuration list for PBXProject "ReactiveViewModelTodo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9141739C187329E20088A5F0;
+			productRefGroup = 914173A6187329E30088A5F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				914173A4187329E20088A5F0 /* ReactiveViewModelTodo */,
+				914173CB187329E30088A5F0 /* ReactiveViewModelTodoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		914173A3187329E20088A5F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914173BF187329E30088A5F0 /* Main_iPad.storyboard in Resources */,
+				914173C7187329E30088A5F0 /* Images.xcassets in Resources */,
+				914173BC187329E30088A5F0 /* Main_iPhone.storyboard in Resources */,
+				914173B3187329E30088A5F0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914173CA187329E30088A5F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914173D8187329E30088A5F0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		476D0F2B1CF64EB281F9472A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ReactiveViewModelTodoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67654F7D504C44DDBE027924 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7941697F736E4D07B4A6C141 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A91F88E334AD4405942FF1D7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		914173A1187329E20088A5F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914173C2187329E30088A5F0 /* YMCMasterViewController.m in Sources */,
+				914173B9187329E30088A5F0 /* YMCAppDelegate.m in Sources */,
+				914173B5187329E30088A5F0 /* main.m in Sources */,
+				914173C5187329E30088A5F0 /* YMCDetailViewController.m in Sources */,
+				9137ED10187B04AD0038F5C7 /* YMCTodoViewModel.m in Sources */,
+				91095D9E187C040500129A57 /* YMCTodoItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914173C8187329E30088A5F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9137ED09187B00BA0038F5C7 /* YMCTodoViewModelSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		914173D2187329E30088A5F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 914173A4187329E20088A5F0 /* ReactiveViewModelTodo */;
+			targetProxy = 914173D1187329E30088A5F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		914173B1187329E30088A5F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				914173B2187329E30088A5F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		914173BA187329E30088A5F0 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				914173BB187329E30088A5F0 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		914173BD187329E30088A5F0 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				914173BE187329E30088A5F0 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		914173D6187329E30088A5F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				914173D7187329E30088A5F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		914173DB187329E30088A5F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		914173DC187329E30088A5F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		914173DE187329E30088A5F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 511AE9ABD1F64E2AA543B239 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReactiveViewModelTodo/ReactiveViewModelTodo-Prefix.pch";
+				INFOPLIST_FILE = "ReactiveViewModelTodo/ReactiveViewModelTodo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		914173DF187329E30088A5F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 511AE9ABD1F64E2AA543B239 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReactiveViewModelTodo/ReactiveViewModelTodo-Prefix.pch";
+				INFOPLIST_FILE = "ReactiveViewModelTodo/ReactiveViewModelTodo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		914173E1187329E30088A5F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F18D2186BEC8402F8C84E1D6 /* Pods-ReactiveViewModelTodoTests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ReactiveViewModelTodo.app/ReactiveViewModelTodo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReactiveViewModelTodo/ReactiveViewModelTodo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ReactiveViewModelTodoTests/ReactiveViewModelTodoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		914173E2187329E30088A5F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F18D2186BEC8402F8C84E1D6 /* Pods-ReactiveViewModelTodoTests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ReactiveViewModelTodo.app/ReactiveViewModelTodo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReactiveViewModelTodo/ReactiveViewModelTodo-Prefix.pch";
+				INFOPLIST_FILE = "ReactiveViewModelTodoTests/ReactiveViewModelTodoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		914173A0187329E20088A5F0 /* Build configuration list for PBXProject "ReactiveViewModelTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914173DB187329E30088A5F0 /* Debug */,
+				914173DC187329E30088A5F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		914173DD187329E30088A5F0 /* Build configuration list for PBXNativeTarget "ReactiveViewModelTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914173DE187329E30088A5F0 /* Debug */,
+				914173DF187329E30088A5F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		914173E0187329E30088A5F0 /* Build configuration list for PBXNativeTarget "ReactiveViewModelTodoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914173E1187329E30088A5F0 /* Debug */,
+				914173E2187329E30088A5F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9141739D187329E20088A5F0 /* Project object */;
+}
