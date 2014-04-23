@@ -8,7 +8,6 @@
 
 #import "Kiwi.h"
 #import "YMCTodoViewModel.h"
-#import "YMCTestHelper.h"
 #import "YMCTodoItem.h"
 
 SPEC_BEGIN(YMCTodoViewModelSpec)
